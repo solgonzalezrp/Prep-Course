@@ -17,7 +17,7 @@ function mayoriaDeEdad(edad) {
   //Si tiene 18 años ó más, devolver --> "Allowed"
   //Si es menor, devolver --> "Not allowed"
   if (edad  >= 18){
-    return "Allowed"
+    return "Allowed";
   }
   else {
     return "Not allowed"}
@@ -32,9 +32,11 @@ function conection(status) {
   if (status === 1){
     return "Online"}
   else if (status === 2){
-    return "Away"}
+    return "Away";
+  }
   else {
-    return "Offline"}
+    return "Offline";
+  }
 }
 
 function saludo(idioma) {
@@ -45,13 +47,17 @@ function saludo(idioma) {
   // Si "idioma" no es ninguno de los anteiores o es `undefined` devuelve "Hola!"
   // Tu código:
   if (idioma === 'aleman'){
-    return "Gluten Tag!"}
+    return "Gluten Tag!";
+  }
   else if (idioma === 'mandarin'){
-    return "Ni Hao!"}
+    return "Ni Hao!";
+  }
   else if (idioma === 'ingles'){
-    return "Hello!"}
+    return "Hello!";
+  }
   else {
-    return "Hola!"
+    return "Hola!";
+    }
 }
 
 function colors(color) {
@@ -63,18 +69,18 @@ function colors(color) {
   //Caso default: devuelve --> "Color not found"
   //Usar el statement Switch.
   switch (color){
-   case 'blue' : return "This is blue"
-   case 'red' : return "This is red"
-   case 'green' : return "This is green"
-   case 'orange' : return "This is orange"
-   default: return "Color not found"
+   case 'blue' : return "This is blue";
+   case 'red' : return "This is red";
+   case 'green' : return "This is green";
+   case 'orange' : return "This is orange";
+   default: return "Color not found";
 }
 
 function esDiezOCinco(numero) {
   // Devuelve "true" si "numero" es 10 o 5
   // De lo contrario, devuelve "false"
   // Tu código:
-  return numero === 10 || numero ===5
+  return numero === 10 || numero === 5
 }
 
 function estaEnRango(numero) {
@@ -153,10 +159,10 @@ function esVerdadero(valor){
   //Escribe una función que reciba un valor booleano y retorne “Soy verdadero” 
   //si su valor es true y “Soy falso” si su valor es false.
   //Escribe tu código aquí
-  if (valor === true){
-    return “Soy verdadero”
-  } else if (valor === false){
-    return “Soy falso”
+  if (valor === true) {
+    return "Soy verdadero"
+  } else if (valor === false) {
+    return "Soy falso"
   }
 }
 
